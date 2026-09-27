@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite 1">
+
+
+    <test name="Test with registration">
+    <classes>
+        <class name="Test_cases_with_registration.TC01"> </class>
+        <class name="Test_cases_with_registration.TC14"> </class>
+        <class name="Test_cases_with_registration.TC15"> </class>
+        <class name="Test_cases_with_registration.TC23"> </class>
+        <class name="Test_cases_with_registration.TC24"> </class>
+    </classes>
+    </test>
+</suite>
+
+
+

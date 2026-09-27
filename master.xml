@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master_Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <suite-files>
+        <suite-file path="suite_1.xml"> </suite-file>
+        <suite-file path="suite_2.xml"> </suite-file>
+        <suite-file path="suite_3.xml"> </suite-file>
+        <suite-file path="suite_4.xml"> </suite-file>
+        <suite-file path="suite_5.xml"> </suite-file>
+        <suite-file path="suite_6.xml"> </suite-file>
+        <suite-file path="suite_7.xml"> </suite-file>
+        <suite-file path="suite_8.xml"> </suite-file>
+        <suite-file path="suite_9.xml"> </suite-file>
+    </suite-files>
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite 5">
+
+
+    <test name="Test cases add review">
+        <classes>
+            <class name="Test_cases_add_review.TC21"> </class>
+
+        </classes>
+    </test>
+</suite>

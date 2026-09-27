@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite 8">
+
+
+    <test name="Test cases verify subscription">
+        <classes>
+            <class name="Test_cases_verify_subscription.TC10"> </class>
+            <class name="Test_cases_verify_subscription.TC11"> </class>
+        </classes>
+    </test>
+</suite>
