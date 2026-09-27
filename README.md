@@ -47,7 +47,6 @@ The project covers the following testing types:
 - Subscription functionality
 - Other relevant user workflows covered by the test cases
 
-*The functional areas above should be adjusted to match the test cases actually documented and executed in this repository.*
 
 ## 5. Testing Workflow
 
@@ -144,13 +143,11 @@ automation-exercise-manual-testing/
 | Test_groups.xml | TestNG group configuration, if used. |
 | suite_1.xml – suite_9.xml | Individual TestNG suite configurations, if used. |
 
-*Note: The XML files and Maven configuration are present in the repository screenshot. Confirm their actual purpose and whether they are used for this manual testing project before retaining these descriptions. Add the test-case folders and evidence folders to this tree if they are part of the published repository.*
 
 ## 8. Tools and Technologies
 
 - **Manual Testing:** Test design and execution.
 - **Web Browser:** Application access and validation.
-- **Microsoft Excel:** Test documentation, if used.
 - **Git and GitHub:** Version control and project documentation.
 - **Maven and TestNG:** Included configuration files, if they are used for associated automated tests.
 
