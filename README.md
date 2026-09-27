@@ -177,11 +177,9 @@ Potential deliverables include:
 | Blocked | [Enter actual count] |
 | Not executed | [Enter actual count] |
 
-*Complete this table using actual execution records. Do not report estimated or unverified results as completed testing.*
-
 ## 10. Author
 
 **Hassnaa Ibrahim**  
 Software Testing | Quality Assurance
 
-GitHub: [Add your GitHub profile link]
+GitHub: [https://github.com/Hassnaa24]
