@@ -1,0 +1,20 @@
+[
+  {
+    "email_address" : "guest_user2@example.com",
+    "password"      : "superSecretPassword2"
+  },
+  {
+    "email_address" : "guest_user3@example.com",
+    "password"      : "superSecretPassword3"
+  },
+  {
+  "email_address": "new_user_alpha2026@example.com",
+  "password":       "StrongPass@2026"
+},
+  {
+    "email_address": "beta_signup_user89@example.com",
+    "password":       "Secure#Pass89"
+
+  }
+
+]
