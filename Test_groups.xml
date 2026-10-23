@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Group suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="smoke test Group">
+        <groups>
+            <run>
+                <include name="Smoke Test"> </include>
+            </run>
+        </groups>
+        <packages>
+            <package name="Test_cases_with_registration"> </package>
+            <package name="Test_cases_with_login"> </package>
+            <package name="Test_cases"> </package>
+            <package name="Test_cases_add_remove_products"> </package>
+            <package name="Test_cases_add_review"> </package>
+            <package name="Test_cases_search_for_products"> </package>
+            <package name="Test_cases_verify_scroll_up_down"> </package>
+            <package name="Test_cases_verify_subscription"> </package>
+            <package name="Test_cases_view"> </package>
+
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite 4">
+
+
+    <test name="Test cases with remove_add products">
+        <classes>
+            <class name="Test_cases_add_remove_products.TC12"> </class>
+            <class name="Test_cases_add_remove_products.TC13"> </class>
+            <class name="Test_cases_add_remove_products.TC17"> </class>
+            <class name="Test_cases_add_remove_products.TC22"> </class>
+        </classes>
+    </test>
+</suite>

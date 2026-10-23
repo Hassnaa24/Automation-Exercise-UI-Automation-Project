@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite 7">
+
+
+    <test name="Test cases verify scroll up_down">
+        <classes>
+            <class name="Test_cases_verify_scroll_up_down.TC25"> </class>
+            <class name="Test_cases_verify_scroll_up_down.TC26"> </class>
+        </classes>
+    </test>
+</suite>
