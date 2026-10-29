@@ -70,29 +70,17 @@ The repository also contains TestNG suite configuration files for organizing and
 The framework separates test scenarios, page interactions, test data, and shared setup to improve readability and maintainability.
 
 ```mermaid
-flowchart LR
-    A["TestNG XML Suites"] --> B["Test Classes"]
-
-    B --> C["Page Objects"]
-    B --> D["JSON Test Data"]
-    B --> F["Base Setup"]
-    B --> H["Listeners and Allure Integration"]
-
-    C --> G["Utilities and WebDriver"]
-    F --> G
-
-    D --> E["POJO Classes"]
-
-    H --> I["Allure Results"]
-    I --> J["Allure Report"]
-
-    classDef test fill:#1f4e78,stroke:#5b9bd5,color:#ffffff
-    classDef support fill:#244a3a,stroke:#70ad47,color:#ffffff
-    classDef reporting fill:#7030a0,stroke:#b4a7d6,color:#ffffff
-
-    class A,B test
-    class C,D,E,F,G support
-    class H,I,J reporting
+flowchart TD
+    A[TestNG XML Suites] --> B[Test Classes]
+    B --> C[Page Objects]
+    B --> D[JSON Test Data]
+    D --> E[POJO Classes]
+    B --> F[Base Setup]
+    C --> G[Utilities and WebDriver]
+    F --> G
+    B --> H[Listeners and Allure Integration]
+    H --> I[Allure Results]
+    I --> J[Allure Report]
 ```
 
 ## Main Components
