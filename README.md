@@ -65,7 +65,6 @@ The test scenarios are organized into packages based on website functionality.
 | Subscription | `Subscription` | Subscription-related checks |
 
 The repository also contains TestNG suite configuration files for organizing and executing the test scenarios.
-
 ## Framework Architecture
 
 The framework separates test scenarios, page interactions, test data, and shared setup to improve readability and maintainability.
@@ -94,19 +93,18 @@ flowchart LR
     class A,B test
     class C,D,E,F,G support
     class H,I,J reporting
+```
 
-### Main Components
+## Main Components
 
-| Component | Responsibility |
-|---|---|
-| Page Objects | Encapsulate web elements, locators, and page-level actions |
-| Test Classes | Define test scenarios and assertions |
-| Base Setup | Provide shared test initialization and teardown |
-| Utilities | Centralize reusable helper functions and WebDriver management |
-| Listeners | Handle test execution events and support reporting integration |
-| POJO Classes | Represent structured test data |
-| JSON Test Data | Store test data separately from test logic |
-| TestNG XML Files | Organize test suites and execution |
+The framework is organized into the following main components:
+- **TestNG XML Suites and Test Classes:** Organize and execute test scenarios.
+- **Page Objects:** Encapsulate page interactions.
+- **Base Setup:** Handles shared test initialization.
+- **JSON Test Data and POJO Classes:** Manage structured test data.
+- **Utilities and WebDriver:** Provide reusable browser and helper functionality.
+- **Listeners and Allure Integration:** Connect test execution with reporting.
+- **Allure Results and Allure Report:** Store and present execution results.
 
 ## Allure Reporting
 
