@@ -1,4 +1,4 @@
-﻿# Automation Exercise ΓÇô UI Test Automation Framework
+﻿# Automation Exercise - UI Test Automation Framework
 
 ![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
 ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?logo=selenium&logoColor=white)
@@ -127,32 +127,32 @@ For accurate reporting, ensure that the tests have executed successfully at the 
 
 ```text
 .
-Γö£ΓöÇΓöÇ src
-Γöé   Γö£ΓöÇΓöÇ main
-Γöé   Γöé   ΓööΓöÇΓöÇ java
-Γöé   Γöé       Γö£ΓöÇΓöÇ pages
-Γöé   Γöé       Γö£ΓöÇΓöÇ Pojo_classes
-Γöé   Γöé       ΓööΓöÇΓöÇ utilities
-Γöé   ΓööΓöÇΓöÇ test
-Γöé       Γö£ΓöÇΓöÇ java
-Γöé       Γöé   Γö£ΓöÇΓöÇ Base
-Γöé       Γöé   Γö£ΓöÇΓöÇ Listeners
-Γöé       Γöé   ΓööΓöÇΓöÇ Test_cases
-Γöé       Γöé       Γö£ΓöÇΓöÇ Add_Remove_Products
-Γöé       Γöé       Γö£ΓöÇΓöÇ Login
-Γöé       Γöé       Γö£ΓöÇΓöÇ Registration
-Γöé       Γöé       Γö£ΓöÇΓöÇ Review
-Γöé       Γöé       Γö£ΓöÇΓöÇ Search
-Γöé       Γöé       Γö£ΓöÇΓöÇ Scroll
-Γöé       Γöé       Γö£ΓöÇΓöÇ Subscription
-Γöé       Γöé       ΓööΓöÇΓöÇ View
-Γöé       ΓööΓöÇΓöÇ resources
-Γöé           ΓööΓöÇΓöÇ Test_Data
-Γö£ΓöÇΓöÇ pom.xml
-Γö£ΓöÇΓöÇ master.xml
-Γö£ΓöÇΓöÇ suite_*.xml
-Γö£ΓöÇΓöÇ Test_groups.xml
-ΓööΓöÇΓöÇ README.md
+├── src
+│   ├── main
+│   │   └── java
+│   │       ├── pages              # Page objects
+│   │       ├── Pojo_classes       # Test data models
+│   │       └── utilities          # Helpers and WebDriver management
+│   └── test
+│       ├── java
+│       │   ├── Base               # Shared setup
+│       │   ├── Listeners          # Execution listeners
+│       │   └── Test_cases
+│       │       ├── Add_Remove_Products
+│       │       ├── Login
+│       │       ├── Registration
+│       │       ├── Review
+│       │       ├── Search
+│       │       ├── Scroll
+│       │       ├── Subscription
+│       │       └── View
+│       └── resources
+│           └── Test_Data          # JSON test data
+├── pom.xml
+├── master.xml                     # Main TestNG suite
+├── suite_*.xml                    # Individual suites
+├── Test_groups.xml                # Group-based execution
+└── README.md
 ```
 
 ## Getting Started
